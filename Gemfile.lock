@@ -100,6 +100,7 @@ GEM
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
     json (2.11.3)
+    kgio (2.11.4)
     language_server-protocol (3.17.0.4)
     lint_roller (1.1.0)
     logger (1.7.0)
@@ -184,6 +185,7 @@ GEM
       thor (~> 1.0, >= 1.2.2)
       zeitwerk (~> 2.6)
     rainbow (3.1.1)
+    raindrops (0.20.1)
     rake (13.2.1)
     rdoc (6.13.1)
       psych (>= 4.0.0)
@@ -230,6 +232,9 @@ GEM
     unicode-display_width (3.1.4)
       unicode-emoji (~> 4.0, >= 4.0.4)
     unicode-emoji (4.0.4)
+    unicorn (6.1.0)
+      kgio (~> 2.6)
+      raindrops (~> 0.7)
     useragent (0.16.11)
     websocket-driver (0.7.7)
       base64
@@ -252,6 +257,7 @@ DEPENDENCIES
   rubocop-rails-omakase
   sqlite3 (~> 1.4)
   tzinfo-data
+  unicorn
 
 BUNDLED WITH
    2.3.26
