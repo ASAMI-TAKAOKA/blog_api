@@ -37,7 +37,7 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
-  gem "sqlite3", "~> 1.4"
+  gem "sqlite3", "~> 2.7"
 end
 
 group :production do
